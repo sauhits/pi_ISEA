@@ -1,12 +1,12 @@
 CC=gcc
 CXX=g++
 LD=g++
-CFLAGS=-c -Wall -pedantic-errors -O3 -std=gnu11 -D_GNU_SOURCE -I../ -g -O0
+CFLAGS=-c -Wall -pedantic-errors -O3 -std=gnu11 -D_GNU_SOURCE -I../ -g -O0 
 LDFLAGS=-pthread 
-# OBJECTS=main.o ./exp1lib.o
-# EXECUTABLE=main
-OBJECTS=server.o ./exp1lib.o
-EXECUTABLE=server
+OBJECTS=main.o ./exp1lib.o
+EXECUTABLE=main
+# OBJECTS=server.o ./exp1lib.o
+# EXECUTABLE=server
 
 # OBJECTS=bench.o ./exp1lib.o
 # EXECUTABLE=bench
