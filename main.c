@@ -111,7 +111,7 @@ int exp1_parse_header(char *buf, int size, exp1_info_type *info)
             }
             else
             {
-                printf("else\n");
+                printf("else: %d\n", j);
                 status[j] = buf[i];
                 j++;
             }
